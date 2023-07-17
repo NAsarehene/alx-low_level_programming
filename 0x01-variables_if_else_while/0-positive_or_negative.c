@@ -5,7 +5,7 @@
 /**
  * main - A program to generate a random number
  *
- * Return : 0 (successul)
+ * Return: 0 (successul)
  *
 */
 
