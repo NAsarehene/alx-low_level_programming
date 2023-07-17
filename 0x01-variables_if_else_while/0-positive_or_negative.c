@@ -4,7 +4,8 @@
 /**
  * main - A program to generate a random number
  * Return : 0 (successul)
- */
+*/
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
