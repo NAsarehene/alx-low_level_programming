@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * positive_or_negative - Determine if a number is negative or positive
- * 0: is the number to be checked
  * @i: The number to be checked.
  * Return: 0 (Succesful execution)
  */
@@ -21,4 +20,3 @@ void positive_or_negative(int i)
 	}
 	return;
 }
-
