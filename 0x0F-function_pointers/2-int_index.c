@@ -1,11 +1,14 @@
 #include "function_pointers.h"
-	/**
-	 * int_index - return index place if comparison = true, else -1
-	 * @array: array
-	 * @size: size of elements in array
-	 * @cmp: pointer to func of one of the 3 in main
-	 * Return: 0
-	 */
+
+/**
+ * int_index - Searches for an integer in an array.
+ * @array: Pointer to an integer array.
+ * @size: Size of the array.
+ * @cmp: Pointer to the comparison function.
+ *
+ * Return: Index of the first element for which the comparison function
+ *         returns a non-zero value, or -1 if no such element is found.
+ */
 	int int_index(int *array, int size, int (*cmp)(int))
 	{
 		int i;
